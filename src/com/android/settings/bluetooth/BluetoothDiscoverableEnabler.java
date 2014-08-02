@@ -143,7 +143,9 @@ final class BluetoothDiscoverableEnabler implements Preference.OnPreferenceClick
 
             if (timeout > 0) {
                 BluetoothDiscoverableTimeoutReceiver.setDiscoverableAlarm(mContext, endTimestamp);
-            } else {
+            }
+            else if(timeout == 0) {
+                // cancel the previous alarms set for 2 mims/5 mins/ 1 hour
                 BluetoothDiscoverableTimeoutReceiver.cancelDiscoverableAlarm(mContext);
             }
         } else {
