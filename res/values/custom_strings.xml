@@ -185,9 +185,6 @@
     <string name="default_string">Default</string>
     <string name="additional_options_title">Additional options</string>
 
-    <!-- TRDS Settings -->
-    <string name="trds_settings_title">Dark UI</string>
-
     <!-- Quick settings -->
     <string name="quick_pulldown_title">Quick Settings pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
@@ -673,6 +670,9 @@
     <string name="custom_carrier_label_explain">Please enter a new label. Enter an empty label to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="hide_carrier_title">Hide carrier label</string>
+    <string name="show_status_bar_carrier_title">MIUI-like carrier label</string>
+    <string name="show_status_bar_carrier_summary">Shows carrier label in status bar</string>
+    <string name="status_bar_carrier_color">MIUI-like carrier label Color</string>
     <string name="notification_show_wifi_ssid_title">Show Wifi network name</string>
     <string name="notification_show_wifi_ssid_summary">Display the name of the currently connected Wifi network</string>
     <string name="add">Add</string>
@@ -936,9 +936,19 @@
     <!-- Lockscreen style settings -->
     <string name="lockscreen_style_reset_message">Reset all lockscreen colors?</string>
     <string name="lockscreen_icon_title">Lock handle icon</string>
-    <string name="lockscreen_lock_icon_custom">Custom Icon</string>
-    <string name="lockscreen_lock_icon_default">Default Icon</string>
-    <string name="lockscreen_lock_icon_du">DU Icon</string>
+    <string name="lockscreen_lock_icon_custom">Custom</string>
+    <string name="lockscreen_lock_icon_default">Default</string>
+    <string name="lockscreen_lock_icon_du">DU Icon #1</string>
+    <string name="lockscreen_lock_icon_du_one">DU Icon #2</string>
+    <string name="lockscreen_lock_icon_du_two">DU Icon #3</string>
+    <string name="lockscreen_lock_icon_du_three">DU Icon #4</string>
+    <string name="lockscreen_lock_icon_du_four">DU Icon #5</string>
+    <string name="lockscreen_lock_icon_du_five">DU Icon #6</string>
+    <string name="lockscreen_lock_icon_du_six">DU Icon #7</string>
+    <string name="lockscreen_lock_icon_du_seven">DU Icon #8</string>
+    <string name="lockscreen_lock_icon_du_eight">DU Icon #9</string>
+    <string name="lockscreen_lock_icon_du_nine">DU Icon #10</string>
+    <string name="lockscreen_lock_icon_du_ten">DU Icon #11</string>
     <string name="lockscreen_colorize_handle_title">Colorize custom handle</string>
     <string name="lockscreen_colorize_handle_summary">Lock color will be set to your custom image</string>
     <string name="lockscreen_style_title">Theme options</string>
@@ -1191,12 +1201,13 @@
     <string name="bars_and_menus_category_power_menu_title">Power menu</string>
     <string name="power_menu_toggle_profiles_title">Profiles</string>
     <string name="power_menu_toggle_screenshot_title">Screenshot</string>
-    <string name="power_menu_toggle_screenrecord_title">Screen Record</string>
-    <string name="power_menu_toggle_mobile_data_title">Mobile Data</string>
+    <string name="power_menu_toggle_screenrecord_title">Screen record</string>
+    <string name="power_menu_toggle_mobile_data_title">Mobile data</string>
     <string name="power_menu_toggle_airplane_mode_title">Airplane mode</string>
     <string name="power_menu_toggle_sound_toggles_title">Sound toggles</string>
     <string name="lockscreen_enable_power_menu_title">Power menu in lockscreen</string>
-    <string name="power_menu_onthego_title">On-The-Go Mode</string>
+    <string name="power_menu_onthego_title">On-The-Go mode</string>
+    <string name="power_menu_navbar_title">Navigation bar</string>
 
     <!-- On-The-Go Mode -->
     <string name="title_tile_onthego">On-The-Go</string>
@@ -1420,6 +1431,7 @@
 
     <!-- Themes -->
     <string name="theme_settings_title">Dark UI</string>
+    <string name="theme_settings_summary">Enabling Dark UI may or may not conflict with Theme Packs</string>
     <string name="theme_auto_mode_title">Switch theme</string>
     <string name="theme_auto_mode_off">Manual</string>
     <string name="theme_auto_mode_lightsensor">On light condition change</string>
@@ -1912,7 +1924,8 @@
 
     <!-- Chamber of Secrets -->
     <string name="chamber_title">Chamber of secrets</string>
-    <string name="chamber_toast">The chamber of secrets has opened</string>
+    <string name="chamber_summary">Used for debugging purposes\n(mainly for advanced users/developers)</string>
+    <string name="chamber_toast">Use at your own RISK!!!</string>
 
     <!-- Lockscreen rotation -->
     <string name="display_lockscreen_rotation_title">Lockscreen</string>
@@ -1946,6 +1959,8 @@
     <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>
     <string name="add_heads_up_blacklist_summary">Don\'t show heads up from these applications</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_expanded_title">Always expanded</string>
+    <string name="heads_up_expanded_summary">Show heads up notification always expanded</string>
 
     <!-- Anonymous Statistics -->
     <string name="main_title">Anonymous Usage Data</string>
@@ -2087,6 +2102,12 @@
     <string name="kill_app_longpress_back_title">Back to Kill App</string>
     <string name="kill_app_longpress_back_delay_title">Kill app back button delay</string>
     <string name="kill_app_longpress_back_delay_summary">delay for Back to Kill</string>
+
+    <!-- Spam Notifications -->
+    <string name="spam_added_title">Added %1$s</string>
+    <string name="spam_last_blocked_title">Last blocked %1$s</string>
+    <string name="block_notifications_title">Filter notifications</string>
+    <string name="no_filters_title">No filters set</string>
 
     <!-- Density changer -->
     <string name="dpi">DPI</string>
