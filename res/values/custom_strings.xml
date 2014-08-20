@@ -1425,6 +1425,8 @@
     <string name="hfm_dialog_failed">Updating hosts file failed. Please try again.</string>
     <string name="hfm_dialog_success">/4 hosts sources successfully applied!</string>
     <string name="hfm_dialog_conn_error">Error: No network connectivity</string>
+    <string name="status_bar_six_bar_signal_title">Enable Six Bar Signal</string>
+    <string name="status_bar_six_bar_signal_summary">Enable to show six bar signal in statusbar/qs</string>
 
     <!-- Fast charge QS tile -->
     <string name="title_tile_fcharge">Fast charge</string>
@@ -1765,10 +1767,22 @@
     <string name="gapps_category">GAPPS Packages</string>
     <string name="xposed_category">Xposed Framework</string>
     <string name="misc_category">Miscellaneous</string>
-    <string name="coregapps_title">Core Gapps</string>
-    <string name="coregapps_summary">Core Gapps are generally recommended if you ONLY want the playstore and nothing else</string>
-    <string name="pagapps_title">PA Gapps</string>
-    <string name="pagapps_summary">Fully packed with the majority of GAPPS, these are commonly used by users that do not want to download/install them later</string>
+    <string name="banks_standard_gapps_title">Banks Standard Gapps</string>
+    <string name="banks_standard_gapps_summary">These include everything that you would normally see in a full gapps package</string>
+    <string name="banks_minimal_gapps_title">Banks Minimal Gapps</string>
+    <string name="banks_minimal_gapps_summary">These include the very minimal stuff you need to access the playstore</string>
+    <string name="banks_minimal_google_search_gapps_title">Banks Minimal (Google Search) Gapps</string>
+    <string name="banks_minimal_google_search_gapps_summary">Exactly the same as the minimal gapps but with Google Seach</string>
+    <string name="banks_gapps_addons_title">Banks Gapps Addons</string>
+    <string name="banks_gapps_addons_summary">These are addons that are to be flashed AFTER you flash any of the packages above</string>
+    <string name="pa_stock_gapps_title">PA Stock Gapps</string>
+    <string name="pa_stock_gapps_summary">These include everything that you would want and then more</string>
+    <string name="pa_mini_gapps_title">PA Mini Gapps</string>
+    <string name="pa_mini_gapps_summary">These are for those who use limited Google apps or prefer to install apps on their own</string>
+    <string name="pa_micro_gapps_title">PA Micro Gapps</string>
+    <string name="pa_micro_gapps_summary">These are users of legacy devices with small system partitions or those who prefer a minimalistic approach</string>
+    <string name="pa_full_gapps_title">PA Full Gapps</string>
+    <string name="pa_full_gapps_summary">These are similar to the PA Stock Package above except that it does NOT include Google Camera, Google Keyboard, Google Gallery2, and will NOT remove your Launcher, Keyboard, Browser, SMS App, or Pico TTS</string>
     <string name="tbogapps_title">Team BlackOut Gapps</string>
     <string name="tbogapps_summary">Just as the name implies, these GAPPS are blacked out / inverted to give you that beautiful dark look</string>
     <string name="xposed_warning">WARNING</string>
@@ -1961,6 +1975,7 @@
     <string name="heads_up_blacklist_title">Blacklist</string>
     <string name="heads_up_expanded_title">Always expanded</string>
     <string name="heads_up_expanded_summary">Show heads up notification always expanded</string>
+    <string name="heads_up_exclude_from_lock_screen">Disable on lockscreen</string>
 
     <!-- Anonymous Statistics -->
     <string name="main_title">Anonymous Usage Data</string>
@@ -2163,10 +2178,31 @@
     <string name="headset_connect_player_title">Launch music app</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
 
-    <!-- User Selectable Tether Networks-->
+    <!-- User Selectable Tether Networks -->
     <string name="tether_usb_network_summary">Press to change USB Network</string>
     <string name="tether_usb_network_text">USB Tether Network</string>
     <string name="tether_user_network_default">Use System Default</string>
     <string name="tether_wifi_network_text">WiFi Tether Network</string>
+
+    <!-- Custom Over scroll Settings -->
+    <string name="ui_overscroll_title">Over scrolling effects</string>
+    <string name="overscroll_glow_title">Over scroll Color</string>
+    <string name="edge_effect_title">Edge Glow effect</string>
+    <string name="bounce_effect_title">Bounce effect</string>
+    <string name="none_effect_title">None</string>
+    <string name="extra_heavy_title">Extra Heavy</string>
+    <string name="heavy_title">Heavy</string>
+    <string name="medium_title">Medium</string>
+    <string name="light_title">Light</string>
+    <string name="extra_light_title">Extra Light</string>
+    <string name="overscroll_title">Over scrolling effect</string>
+    <string name="overscroll_summary">Choose how scrollable objects look when they overshoot</string>
+    <string name="overscroll_weight_title">Over scrolling weight</string>
+    <string name="overscroll_weight_summary">Select the weight of the scrollable objects</string>
+
+    <!-- Disable Boot Audio -->
+    <string name="disable_bootaudio_title">Disable boot audio</string>
+    <string name="disable_bootaudio_summary">Quiet</string>
+    <string name="disable_bootaudio_summary_disabled">To enable boot audio, you must have an MP3 file at \n/system/media/audio.mp3</string>
 
 </resources>
