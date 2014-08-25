@@ -698,6 +698,7 @@
     <string name="title_tile_wifiap">Wi-Fi AP</string>
     <string name="title_tile_wifi">Wi-Fi</string>
     <string name="title_tile_user">User switcher</string>
+    <string name="title_tile_networkmode">Network mode</string>
     <string name="title_tile_nfc">NFC</string>
     <string name="title_tile_screen_timeout">Screen timeout</string>
     <string name="title_tile_volume">Volume</string>
@@ -739,6 +740,7 @@
     <string name="quick_tiles_text_color_title">Tiles text color</string>
     <string name="quick_tiles_alpha_title">Tiles background transparency</string>
     <string name="qs_style_reset_message">Reset all colors to default?</string>
+    <string name="pref_network_mode_title">Network modes</string>
     <string name="pref_screentimeout_mode_title">Screen timeout modes</string>
     <string name="pref_ring_mode_title">Sound modes</string>
     <string name="pref_music_mode_title">Music mode</string>
@@ -2174,12 +2176,6 @@
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Launch music app</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
-
-    <!-- User Selectable Tether Networks -->
-    <string name="tether_usb_network_summary">Press to change USB Network</string>
-    <string name="tether_usb_network_text">USB Tether Network</string>
-    <string name="tether_user_network_default">Use System Default</string>
-    <string name="tether_wifi_network_text">WiFi Tether Network</string>
 
     <!-- Custom Over scroll Settings -->
     <string name="ui_overscroll_title">Over scrolling effects</string>
