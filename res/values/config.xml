@@ -30,7 +30,7 @@
     <integer name="maximum_user_dictionary_word_length" translatable="false">48</integer>
 
     <!-- Must be true to display button settings -->
-    <bool name="config_device_has_button_settings" translatable="false">true</bool>
+    <bool name="config_device_has_button_settings" translatable="true">true</bool>
 
     <!-- does the device have multi color led support or only
          a fixed set of led colors -->
